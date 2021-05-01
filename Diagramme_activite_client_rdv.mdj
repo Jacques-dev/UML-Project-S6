@@ -266,7 +266,7 @@
 									"top": 36,
 									"width": 409,
 									"height": 15,
-									"text": "Client",
+									"text": "Patient",
 									"verticalAlignment": 3
 								}
 							],
@@ -377,7 +377,7 @@
 											"top": 2616,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from Client)"
+											"text": "(from Patient)"
 										},
 										{
 											"_type": "LabelView",
@@ -480,9 +480,9 @@
 											"font": "Arial;15;0",
 											"left": -152,
 											"top": 3888,
-											"width": 86.6708984375,
+											"width": 90.85693359375,
 											"height": 15,
-											"text": "(from Client)"
+											"text": "(from Patient)"
 										},
 										{
 											"_type": "LabelView",
@@ -1285,7 +1285,7 @@
 											"top": -136,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from Client)"
+											"text": "(from Patient)"
 										},
 										{
 											"_type": "LabelView",
@@ -1683,7 +1683,7 @@
 											"top": 120,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from Client)"
+											"text": "(from Patient)"
 										},
 										{
 											"_type": "LabelView",
@@ -2479,7 +2479,7 @@
 											"top": 24,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from Client)"
+											"text": "(from Patient)"
 										},
 										{
 											"_type": "LabelView",
@@ -2689,7 +2689,7 @@
 											"top": -344,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from Client)"
+											"text": "(from Patient)"
 										},
 										{
 											"_type": "LabelView",
@@ -2897,7 +2897,7 @@
 											"top": -112,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from Client)"
+											"text": "(from Patient)"
 										},
 										{
 											"_type": "LabelView",
@@ -3104,7 +3104,7 @@
 											"top": -344,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from Client)"
+											"text": "(from Patient)"
 										},
 										{
 											"_type": "LabelView",
@@ -3986,7 +3986,7 @@
 											"top": -136,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from Client)"
+											"text": "(from Patient)"
 										},
 										{
 											"_type": "LabelView",
@@ -4611,7 +4611,7 @@
 											"top": -80,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from Client)"
+											"text": "(from Patient)"
 										},
 										{
 											"_type": "LabelView",
@@ -4716,7 +4716,7 @@
 											"top": -120,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from Client)"
+											"text": "(from Patient)"
 										},
 										{
 											"_type": "LabelView",
@@ -8351,7 +8351,7 @@
 											"top": 360,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from Client)"
+											"text": "(from Patient)"
 										},
 										{
 											"_type": "LabelView",
@@ -8737,7 +8737,7 @@
 											"top": 384,
 											"width": 86.6708984375,
 											"height": 13,
-											"text": "(from Client)"
+											"text": "(from Patient)"
 										},
 										{
 											"_type": "LabelView",
@@ -12130,7 +12130,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF40O8joCeA9Lc="
 					},
-					"name": "Client",
+					"name": "Patient",
 					"nodes": [
 						{
 							"_type": "UMLAction",
