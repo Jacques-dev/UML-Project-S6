@@ -2370,6 +2370,117 @@
 									"activation": {
 										"$ref": "AAAAAAF5dtJa5XEBve0="
 									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAF5dvuXvjA6rRE=",
+									"_parent": {
+										"$ref": "AAAAAAF5dqI67W5EFOo="
+									},
+									"model": {
+										"$ref": "AAAAAAF5dvuXvjA5IOc="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAF5dvuXvjA729I=",
+											"_parent": {
+												"$ref": "AAAAAAF5dvuXvjA6rRE="
+											},
+											"model": {
+												"$ref": "AAAAAAF5dvuXvjA5IOc="
+											},
+											"font": "Arial;13;0",
+											"left": 784,
+											"top": 1176,
+											"width": 177.759765625,
+											"height": 13,
+											"alpha": 0.23255691229671596,
+											"distance": 78.10249675906654,
+											"hostEdge": {
+												"$ref": "AAAAAAF5dvuXvjA6rRE="
+											},
+											"edgePosition": 1,
+											"text": "14 : Enregistrement du compte"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAF5dvuXvzA82Lk=",
+											"_parent": {
+												"$ref": "AAAAAAF5dvuXvjA6rRE="
+											},
+											"model": {
+												"$ref": "AAAAAAF5dvuXvjA5IOc="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 796,
+											"top": 1169,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAF5dvuXvjA6rRE="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAF5dvuXvzA9Yqk=",
+											"_parent": {
+												"$ref": "AAAAAAF5dvuXvjA6rRE="
+											},
+											"model": {
+												"$ref": "AAAAAAF5dvuXvjA5IOc="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 796,
+											"top": 1204,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAF5dvuXvjA6rRE="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAF5dvuXvzA+eic=",
+											"_parent": {
+												"$ref": "AAAAAAF5dvuXvjA6rRE="
+											},
+											"model": {
+												"$ref": "AAAAAAF5dvuXvjA5IOc="
+											},
+											"font": "Arial;13;0",
+											"left": 1045,
+											"top": 1200,
+											"width": 14,
+											"height": 29
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAF5dqLqFm6eUpA="
+									},
+									"tail": {
+										"$ref": "AAAAAAF5dqLT/G5+B3k="
+									},
+									"points": "548:1200;1045:1200",
+									"nameLabel": {
+										"$ref": "AAAAAAF5dvuXvjA729I="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF5dvuXvzA82Lk="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF5dvuXvzA9Yqk="
+									},
+									"activation": {
+										"$ref": "AAAAAAF5dvuXvzA+eic="
+									}
 								}
 							]
 						}
@@ -2561,6 +2672,20 @@
 								"$ref": "AAAAAAF5dqLT/G53GOY="
 							},
 							"messageSort": "reply"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAF5dvuXvjA5IOc=",
+							"_parent": {
+								"$ref": "AAAAAAF5dqI67G5DHSk="
+							},
+							"name": "Enregistrement du compte",
+							"source": {
+								"$ref": "AAAAAAF5dqLT/G53GOY="
+							},
+							"target": {
+								"$ref": "AAAAAAF5dqLqFW6XoRU="
+							}
 						}
 					],
 					"participants": [
@@ -2697,7 +2822,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF5dqI67G5Cmek="
 					},
-					"name": "Role1"
+					"name": "Role1",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -2705,7 +2831,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF5dqI67G5Cmek="
 					},
-					"name": "Role2"
+					"name": "Role2",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -2713,7 +2840,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF5dqI67G5Cmek="
 					},
-					"name": "Role3"
+					"name": "Role3",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -2721,7 +2849,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF5dqI67G5Cmek="
 					},
-					"name": "Role4"
+					"name": "Role4",
+					"type": ""
 				}
 			]
 		}
